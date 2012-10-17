@@ -1,0 +1,44 @@
+/*Carousel using code from: http://web.enavu.com/demos/carousel.html */
+#carousel_inner {
+    float:left; /* important for inline positioning */
+    width:403px; /* important (this width = width of list item(including margin) * items shown */ 
+    overflow: hidden;  /* important (hide the items outside the div) */
+    margin-left:6px;
+    margin-right:6px;
+
+}
+
+#carousel_ul {
+    position:relative;
+    left:-402px; /* important (this should be negative number of list item''s width(including margin) */
+    list-style-type: none; /* removing the default styling for unordered list items */
+    margin: 0px;
+    padding: 0px;
+    width:9999px; /* important */
+    /* non-important styling bellow */
+}
+
+#carousel_ul li{
+    float: left; /* important for inline positioning of the list items */                                    
+    width:402px;  /* fixed width, important */
+    /* just styling bellow*/
+    padding:0px;
+    height:270px;
+
+}
+
+#carousel_ul li img {
+    /* styling */
+    cursor:pointer;
+    cursor: pointer; 
+}
+#left_scroll, #right_scroll{
+    float:left; 
+    margin-top:105px;
+}
+#right-scroll img {margin-left:12px;}
+#left-scroll img {margin-right:12px;}
+#left_scroll img, #right_scroll img{
+    /*styling*/
+    cursor: pointer;
+}

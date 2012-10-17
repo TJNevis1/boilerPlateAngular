@@ -1,0 +1,123 @@
+[
+	{
+		"selector": "#mainlogo",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Dodge Logo",
+		"action": "Dodge Logo"
+	},
+	{
+		"selector": "#secondarylogo",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Mopar Logo",
+		"action": "Mopar Logo"
+	},
+	{
+		"selector": "#semalogo",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - SEMA Logo",
+		"action": "SEMA Logo"
+	},
+	{
+		"selector": "#fblike",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Like on Facebook",
+		"action": "Like on FB"
+	},
+	{
+		"selector": "#viewentries",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - View Entries",
+		"action": "View Entries"
+	},
+	{
+		"selector": "#addcar",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Add Your SEMA Worthy Car",
+		"action": "Add Your SEMA worthy car"
+	},
+	{
+		"selector": "#thumbup",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Vote",
+		"action": "Vote Worthy Thumb"
+	},
+	{
+		"selector": "#thumbdown",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Vote",
+		"action": "Vote Not Worthy Thumb"
+	},
+	{
+		"selector": "thumbuptext",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Vote",
+		"action": "Vote Worthy Text"
+	},
+	{
+		"selector": "thumbdowntext",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Vote",
+		"action": "Vote Not Worthy Text"
+	},
+	{
+		"selector": "fbshare",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Share This Car on Facebook",
+		"action": "Facebook Share"
+	},
+	{
+		"selector": "buildmyownlink",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Build My Own",
+		"action": "Build My Own"
+	},
+	{
+		"selector": "currentofferslink",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - See Current Offers",
+		"action": "See Current Offers"
+	},
+	{
+		"selector": "dodgecomlink",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Dodge.com Link",
+		"action": "Bottom Left Dodge"
+	},
+	{
+		"selector": "eventdetails",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Event Details",
+		"action": "Bottom Right SEMA"
+	},
+	{
+		"selector": "nextcar",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Next Car",
+		"action": "View Next Car"
+	},
+	{
+		"selector": "submitphoto",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Submit Photo",
+		"action": "Submit Photo"
+	},
+	{
+		"selector": "sharefbtop",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Share",
+		"action": "Facebook top"
+	},
+	{
+		"selector": "sharetwitter",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Share",
+		"action": "Twitter"
+	},
+	{
+		"selector": "shareemail",
+		"name": "SEMAWorthyFacebookApplicaton",
+		"label": "Click - Share",
+		"action": "Email"
+	}
+]
+

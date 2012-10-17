@@ -1,0 +1,44 @@
+---------Major Overhaul October 2011---------
+/js/sammy/
+- Added Sammy.js support - This may change in the future if we move to backbone or another framework.
+
+/js/scripts.js and controller.js
+- empty scripts.js and sample routing controller.js files. actions should go in scripts, all routing in controller for sammy.js to handle
+
+/modules
+- Carousel -> Basics of a jQuery carousel plugin we consistently use
+- Validation -> Profanity filter, blank, length, valid email
+- RSS -> Reads in RSS feed to JSON
+- Twitter -> Reads in a twitter search query into JSON or PHP object
+
+/styles
+- moving to less.css, use the less css app to precompile code similar to Sass' functionality: http://incident57.com/less/
+
+likepage.html
+- sample like page with redirect
+
+/db
+- added some simple continually reused MySQL and MongoDB scripts
+
+index.php
+- Links in the head to additional files described above including a local copy of jQuery
+- Moved the fb root and fb.init to the top and included sample fb.canvas functions to remove scrollbars
+- Uncomment piece to redirect to generic FB page when trying to view from off of FB
+
+.gitignore
+- Added ignores for nbprojects and PSDs
+
+
+
+
+---------March 2011---------
+Ignite Facebook Boilerplate includes:
+
+
+* FB JSSDK
+* jQuery 1.5
+* Yahoo CSS Reset
+* 
+
+
+

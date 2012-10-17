@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+	.errorHighlight{outline:2px solid red;}/*border:2px solid red;*//*Outline is needed for checkboxes and works on other elements*/
+</style>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="validation.js"></script>
+</head>
+<body>
+Radio Buttons:
+Yes: <input type="radio" name="someRadioGroup" value="Yes" class="validateMe" /> No: <input type="radio" name="someRadioGroup" value="No" class="validateMe" />	
+
+<br />
+	
+First Name:
+<input type="text" class="validateMe" />
+
+<br />
+
+Last Name:
+<input type="text" class="validateMe" />
+
+<br />
+
+No Validation:
+<input type="text" class="noValidation" />
+
+<br />
+
+Ignore website links:
+<input type="text" class="validateMe ignoreLinks" />
+
+<br /><br />
+
+<select name="selectOnlyOne" class="validateMe">
+	<option></option>
+	<option>1</option>
+	<option>2</option>
+</select>
+
+<br />
+
+<select multiple="multiple" class="validateMe">
+	<optgroup label="Swedish Cars">
+		<option value="volvo">Volvo</option>
+		<option value="saab">Saab</option>
+	</optgroup>
+	<optgroup label="German Cars">
+		<option value="mercedes">Porsche</option>
+		<option value="audi">Audi</option>
+	</optgroup>
+</select>
+
+<br />
+Email:
+<input type="text" id="email" class="validateMe email" />
+
+<br />
+
+Zip:
+<input type="text" id="zip" class="validateMe" />
+
+<br />
+
+Check Me<input type="checkbox" name="checkMe"  class="validateMe"/>
+
+<br />
+
+TextArea:
+<textarea class="validateMe"></textarea>
+
+<br />
+
+<input type="button" value="Validate" id="validate" /><br /><br />
+
+<div class="error"></div>
+<script type="text/javascript">
+	//Grab all of the profanity words or other words to check (like Mederma)
+	//With this one call, we can send it to however many validation checks we want
+	//var profanity = [];
+	//$.get('dirtywords.txt', function( data ) {
+	//	profanity= data.split(",");						
+	//});
+
+	$(document).ready(function(){
+		$('#validate').click(function(){
+			$('.validateMe').validate({
+				emailField : '.email',
+				errorDiv : '.error',
+				radioButtonGroup : 'someRadioGroup'
+			}, function( success ){
+				if(success){
+					console.log('this worked!');
+				}else{
+					console.log('this didn\'t work!');
+				}
+			});
+		});
+		
+		//Makes it so enter submits the form
+		$('input').keypress(function(e) {
+			if(e.which == 13) {
+			    $(this).blur();
+			    $('#validate').focus().click();
+			}
+		});
+	}); //End document ready
+</script>
+</body>
+</html>

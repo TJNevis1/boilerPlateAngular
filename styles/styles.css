@@ -1,0 +1,8 @@
+#loadingFilter{display:none; position:fixed; top:0; bottom:0; left:0; right:0; overflow:hidden; background-color:#FFFFFF; filter:alpha(opacity=50); opacity:0.5; z-index:100; margin:0; padding:0}
+#wrap {width:520px; float:left;}
+.errorHighlight{outline:2px solid red;}
+#boxItem{background:url(../images/black60Transparent.png);position:fixed;width:650px;top:40%;left:50%;margin-left:-325px;padding:10px;z-index:200;display:none;}
+#boxItem .close{position:absolute;top:13px;right:15px;}
+#boxItem .content{background-color:#ffffff;padding:20px;text-align:center;display:none;}
+.drop_shadow{-moz-box-shadow:0px 0px 20px #000;-webkit-box-shadow:0px 0px 20px #000;box-shadow:0px 0px 20px #000;-ms-filter:"progid:DXImageTransform.Microsoft.Shadow(Strength=20, Direction=135, Color='#000000')";}
+.rounded_corners{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
